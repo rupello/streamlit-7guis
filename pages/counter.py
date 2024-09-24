@@ -1,5 +1,7 @@
 import streamlit as st
 
+# st.write(st.session_state)
+
 # Initialize session states
 if 'counter' not in st.session_state:
     st.session_state.counter = 0
